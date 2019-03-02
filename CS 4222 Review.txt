@@ -1,0 +1,15 @@
+R103 <- o = select bid - 103 (Reserves)
+result <- TT sname (R103 * Sailor)
+
+Sred <- TT sname ( o = select color ='red' (sailors * reserves * boats)
+sgreen <- TT ^ but with green
+result <- Sred intersect Sgreen
+
+Temp(Sid,num)<- Sid F count(*), (Reserves)
+Temp2 <- TT sid(O num > 2 (Temp))
+TT sname (Temp2 * Sailors)
+
+greenBoats = TT bid(O color = green (Boats))
+Temp < TTsid,bid(Reserves)
+Temp2 <- Temp = greenBoats
+Result <- TT name(Temp2 * Sailors)
